@@ -59,7 +59,7 @@ function searchPokemon(pokename){
 
 pokebola.addEventListener('click', e =>{
     e.preventDefault()
-    pokename = Math.ceil(Math.random()*200)
+    pokename = Math.ceil(Math.random()*1050)
     searchPokemon(pokename)
 })
 
